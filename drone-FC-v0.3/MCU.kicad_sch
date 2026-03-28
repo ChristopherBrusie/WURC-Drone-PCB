@@ -3376,6 +3376,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 73.66) (xy 210.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a34218d-da39-4d69-8580-2e1c7922ba99")
+	)
+	(wire
+		(pts
 			(xy 50.8 114.3) (xy 50.8 115.57)
 		)
 		(stroke
@@ -3666,6 +3676,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 55.88) (xy 210.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83706b1-407e-49d6-8240-552fee7c11b9")
+	)
+	(wire
+		(pts
 			(xy 88.9 29.21) (xy 96.52 29.21)
 		)
 		(stroke
@@ -3786,6 +3806,26 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 71.12) (xy 210.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87b1e9a-d465-4bbd-a131-118e69fbb944")
+	)
+	(wire
+		(pts
+			(xy 200.66 76.2) (xy 210.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebcc3e5a-cf74-4464-b76f-ccb5908ec8ef")
+	)
+	(wire
+		(pts
 			(xy 241.3 45.72) (xy 243.84 45.72)
 		)
 		(stroke
@@ -3874,6 +3914,16 @@
 		)
 		(uuid "f81a9327-201e-4f6a-9d5a-80ada23714fd")
 	)
+	(label "Low_chip_selected"
+		(at 193.04 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "098092ed-f01b-4da0-9799-1232cd105c5e")
+	)
 	(label "UART_1_RX"
 		(at 243.84 50.8 0)
 		(effects
@@ -3883,6 +3933,16 @@
 			(justify left bottom)
 		)
 		(uuid "1537fcee-ec5e-46e4-aaab-dfa6bebd1f9f")
+	)
+	(label "SCLK"
+		(at 203.2 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ec7fab9-994a-470e-be11-fc494f8bdbbc")
 	)
 	(label "CHIP_PU"
 		(at 181.61 46.99 0)
@@ -3914,6 +3974,16 @@
 		)
 		(uuid "461ec5f0-9a26-4423-8bc5-7f116dda4621")
 	)
+	(label "SCL_MAG"
+		(at 200.66 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "504586a2-165f-403a-a4ef-5c22c07fe01e")
+	)
 	(label "USB_D-"
 		(at 74.93 41.91 0)
 		(effects
@@ -3923,6 +3993,16 @@
 			(justify left bottom)
 		)
 		(uuid "5a5257fd-8d1a-4353-b397-da1bcc799208")
+	)
+	(label "SDA_MAG"
+		(at 200.66 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60032c00-cf08-44a1-a7d1-247a72d91de9")
 	)
 	(label "GPIO6"
 		(at 208.28 63.5 180)
@@ -3973,6 +4053,16 @@
 			(justify right bottom)
 		)
 		(uuid "a9ab39c7-d92f-4699-8af9-08575c3c7742")
+	)
+	(label "SDO1"
+		(at 241.3 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad93184c-63e4-4b20-a975-ac3223354ef0")
 	)
 	(label "GPIO5"
 		(at 208.28 60.96 180)

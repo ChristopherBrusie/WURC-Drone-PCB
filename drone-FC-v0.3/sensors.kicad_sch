@@ -4852,7 +4852,7 @@
 		)
 		(uuid "3ffe765e-16da-477b-94c9-e9fb6b5c2830")
 	)
-	(label "sda_1"
+	(label "GPIO8"
 		(at 41.91 162.56 0)
 		(effects
 			(font
@@ -4862,7 +4862,7 @@
 		)
 		(uuid "41b4368c-6fc6-4a28-9585-30d9f4aa264a")
 	)
-	(label "sdo_1"
+	(label "SDO1"
 		(at 96.52 182.88 0)
 		(effects
 			(font
@@ -4952,7 +4952,7 @@
 		)
 		(uuid "7cb861a4-e7ce-4470-84b0-646c49503f94")
 	)
-	(label "sdo_1"
+	(label "SDO1"
 		(at 41.91 160.02 0)
 		(effects
 			(font
@@ -4972,7 +4972,7 @@
 		)
 		(uuid "81a120b4-8f82-464b-a97a-ce038197dc50")
 	)
-	(label "sclk_1"
+	(label "SCLK"
 		(at 41.91 165.1 0)
 		(effects
 			(font
@@ -5012,7 +5012,7 @@
 		)
 		(uuid "a905ba95-c85c-4648-b8d2-5fc11c6f7367")
 	)
-	(label "sda_1"
+	(label "GPIO8"
 		(at 96.52 185.42 0)
 		(effects
 			(font
@@ -5102,7 +5102,7 @@
 		)
 		(uuid "f44bacdc-ba89-4c4b-8312-acaa93541868")
 	)
-	(label "sclk_1"
+	(label "SCLK"
 		(at 96.52 187.96 0)
 		(effects
 			(font
