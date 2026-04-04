@@ -3306,6 +3306,16 @@
 		)
 		(uuid "f29c517f-2942-4d45-b1aa-bb7c066ff671")
 	)
+	(label "USB_D-"
+		(at 111.76 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0019e4b5-8476-4abc-b2fc-7b625831e0b8")
+	)
 	(label "Low_chip_selected"
 		(at 193.04 71.12 0)
 		(effects
@@ -3325,6 +3335,16 @@
 			(justify left bottom)
 		)
 		(uuid "1537fcee-ec5e-46e4-aaab-dfa6bebd1f9f")
+	)
+	(label "USB_D+"
+		(at 111.76 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d29698e-5c52-4210-8cb5-fe9018a19d89")
 	)
 	(label "SCLK"
 		(at 203.2 55.88 0)
@@ -3475,26 +3495,6 @@
 			(justify left bottom)
 		)
 		(uuid "c0f733e6-2e47-4f5a-96a2-7fa5cb0e55d2")
-	)
-	(label "GPIO 20"
-		(at 102.87 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7f72cb7-1e2c-4f81-bf37-140127a290f5")
-	)
-	(label "GPIO 19"
-		(at 102.87 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d869cd0c-c6ea-4b1f-8d76-d2bae6b9aa05")
 	)
 	(label "GPIO7"
 		(at 208.28 66.04 180)
