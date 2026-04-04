@@ -14,8 +14,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J11"
+				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,7 +25,7 @@
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
+				(at 0 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -690,24 +690,6 @@
 						)
 					)
 					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2816,16 +2798,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 78.74) (xy 30.48 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16844150-775e-41ba-ba0c-2dd001fe0bed")
-	)
-	(wire
-		(pts
 			(xy 83.82 45.72) (xy 83.82 55.88)
 		)
 		(stroke
@@ -3133,16 +3105,6 @@
 			(type default)
 		)
 		(uuid "93675759-17df-4218-89f0-74cc179480bb")
-	)
-	(wire
-		(pts
-			(xy 22.86 64.77) (xy 22.86 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9671d452-93c2-45cd-89ad-d62883eda50f")
 	)
 	(wire
 		(pts
@@ -4695,7 +4657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 34.29 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4730,9 +4692,6 @@
 		)
 		(pin "A1"
 			(uuid "bb35aa01-fabf-4d74-bd79-20618a0d5572")
-		)
-		(pin "S1"
-			(uuid "023a458d-7b92-45a8-b963-cb0a1f9efbaa")
 		)
 		(pin "A12"
 			(uuid "13e30d41-ecdc-4204-aefe-47586e43d8e3")
