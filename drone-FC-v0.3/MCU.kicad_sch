@@ -3306,26 +3306,6 @@
 		)
 		(uuid "f29c517f-2942-4d45-b1aa-bb7c066ff671")
 	)
-	(label "USB_D-"
-		(at 111.76 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0019e4b5-8476-4abc-b2fc-7b625831e0b8")
-	)
-	(label "Low_chip_selected"
-		(at 193.04 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "098092ed-f01b-4da0-9799-1232cd105c5e")
-	)
 	(label "UART_1_RX"
 		(at 243.84 50.8 0)
 		(effects
@@ -3335,26 +3315,6 @@
 			(justify left bottom)
 		)
 		(uuid "1537fcee-ec5e-46e4-aaab-dfa6bebd1f9f")
-	)
-	(label "USB_D+"
-		(at 111.76 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d29698e-5c52-4210-8cb5-fe9018a19d89")
-	)
-	(label "SCLK"
-		(at 203.2 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ec7fab9-994a-470e-be11-fc494f8bdbbc")
 	)
 	(label "CHIP_PU"
 		(at 181.61 46.99 0)
@@ -3376,46 +3336,6 @@
 		)
 		(uuid "45966b6f-e1b6-4c7b-8886-bea2c5583395")
 	)
-	(label "GPIO4"
-		(at 208.28 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "461ec5f0-9a26-4423-8bc5-7f116dda4621")
-	)
-	(label "SCL_MAG"
-		(at 200.66 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "504586a2-165f-403a-a4ef-5c22c07fe01e")
-	)
-	(label "SDA_MAG"
-		(at 200.66 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60032c00-cf08-44a1-a7d1-247a72d91de9")
-	)
-	(label "GPIO6"
-		(at 208.28 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60b7f415-0a51-40da-af11-bdb76cc7a85b")
-	)
 	(label "UART_0_RX"
 		(at 243.84 45.72 0)
 		(effects
@@ -3425,26 +3345,6 @@
 			(justify left bottom)
 		)
 		(uuid "8e3e6fc6-7cdb-422b-bfdf-2ba58793433d")
-	)
-	(label "USB_D-"
-		(at 247.65 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2f7712c-a7a4-490a-b4a1-7b4b4f5e4724")
-	)
-	(label "GPIO8"
-		(at 208.28 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a99473c3-117c-43db-a380-e0c01dc7cb18")
 	)
 	(label "CHIP_PU"
 		(at 208.28 43.18 180)
@@ -3456,26 +3356,6 @@
 		)
 		(uuid "a9ab39c7-d92f-4699-8af9-08575c3c7742")
 	)
-	(label "SDO1"
-		(at 241.3 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad93184c-63e4-4b20-a975-ac3223354ef0")
-	)
-	(label "GPIO5"
-		(at 208.28 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bbad77b3-f363-4bab-9796-dfe1a4b50139")
-	)
 	(label "UART_0_TX"
 		(at 243.84 43.18 0)
 		(effects
@@ -3486,25 +3366,317 @@
 		)
 		(uuid "c063627c-294f-4495-9c21-b60fa82a7e2f")
 	)
-	(label "USB_D+"
-		(at 247.65 55.88 0)
+	(global_label "GPIO 4"
+		(shape input)
+		(at 208.28 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "c0f733e6-2e47-4f5a-96a2-7fa5cb0e55d2")
+		(uuid "03596e1d-91d6-4021-9bce-3e83b64ae255")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.6424 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "GPIO7"
+	(global_label "GPIO 7"
+		(shape input)
 		(at 208.28 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "f129c454-ecc6-4c8f-b274-5496fe639244")
+		(uuid "3f7e2795-8ed0-4b87-9693-5e0d5162a04a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.6424 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape input)
+		(at 111.76 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b9b5448-5308-40f8-892a-238647407b35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.3652 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape input)
+		(at 247.65 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50581cb8-00c8-412c-a7e2-794ab46d21f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.2552 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape input)
+		(at 247.65 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58a69fa2-6ace-442a-bc7e-7d7ce4f22aed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.2552 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDA_MAG"
+		(shape input)
+		(at 200.66 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a83250f-1580-4801-9de2-593949d18d4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.3291 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO 5"
+		(shape input)
+		(at 208.28 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "757b3a92-d2c8-4047-bff2-de7519270b39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.6424 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCL_MAG"
+		(shape input)
+		(at 200.66 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "808d9bae-e1fa-4059-b0c9-3cc07c31d6ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.3896 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape input)
+		(at 111.76 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d309d7e-2d33-4772-85dc-5c33caeda39a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.3652 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO 8"
+		(shape input)
+		(at 208.28 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91850685-4df3-42c9-8ccc-2e1e0e8d1dec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.6424 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDO1"
+		(shape input)
+		(at 241.3 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9a3ebd5-9584-4a69-9c14-ac17e7bfaa58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.3047 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO 6"
+		(shape input)
+		(at 208.28 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa8a64e2-75e3-4d05-be9b-8abbd472a9ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.6424 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 203.2 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d636f3b6-932d-4b80-97c2-ac07fb150d91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.4372 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")

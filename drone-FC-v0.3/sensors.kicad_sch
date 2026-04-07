@@ -2401,13 +2401,7 @@
 		(at 58.42 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18c6626b-7561-462d-87b1-baea90aef7e5")
-	)
-	(junction
-		(at 68.58 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7126331d-3661-41c9-bc2c-848a2d9a8d66")
+		(uuid "80c69b37-0401-4222-a136-6e0d4c4be071")
 	)
 	(junction
 		(at 207.01 125.73)
@@ -2434,12 +2428,6 @@
 		(uuid "b03b00fe-26bc-478b-85a1-7e73127c1b54")
 	)
 	(junction
-		(at 68.58 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b07b8bbe-b235-4397-896f-f474a274d8fe")
-	)
-	(junction
 		(at 43.18 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2450,6 +2438,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c151c732-87ff-44b6-b13e-fa9bd851c9d7")
+	)
+	(junction
+		(at 80.01 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c19563bf-2574-495f-aa4f-84d6ccce6e09")
 	)
 	(junction
 		(at 93.98 124.46)
@@ -2510,16 +2504,6 @@
 			(type default)
 		)
 		(uuid "02b12b6b-63bd-45ce-b301-1dd437792523")
-	)
-	(wire
-		(pts
-			(xy 101.6 80.01) (xy 99.06 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "046ffb25-4f2e-4540-96f3-4cd6af76ffe2")
 	)
 	(wire
 		(pts
@@ -2633,16 +2617,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 62.23) (xy 90.17 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aa0f9d4-b7ad-4f6f-8333-bcf0e0e38201")
-	)
-	(wire
-		(pts
 			(xy 91.44 124.46) (xy 91.44 133.35)
 		)
 		(stroke
@@ -2690,16 +2664,6 @@
 			(type default)
 		)
 		(uuid "456bf214-26d6-4fdc-9650-92b0769e37c3")
-	)
-	(wire
-		(pts
-			(xy 99.06 80.01) (xy 99.06 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51d46089-35fd-4899-a050-b7a66dc17a80")
 	)
 	(wire
 		(pts
@@ -2753,17 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 57.15) (xy 80.01 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6928bb06-87c2-4b74-b2bd-50ed884aaca9")
-	)
-	(wire
-		(pts
-			(xy 68.58 57.15) (xy 68.58 62.23)
+			(xy 80.01 57.15) (xy 80.01 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2790,16 +2744,6 @@
 			(type default)
 		)
 		(uuid "7052f597-75a5-4410-a190-8a4c720f1b25")
-	)
-	(wire
-		(pts
-			(xy 46.99 57.15) (xy 68.58 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739e68b2-6873-494e-83f8-8ac1d7ec355c")
 	)
 	(wire
 		(pts
@@ -2840,6 +2784,16 @@
 			(type default)
 		)
 		(uuid "7587f5e9-1315-4809-a000-b1952b5883c3")
+	)
+	(wire
+		(pts
+			(xy 80.01 62.23) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792657c3-a21c-40c2-9e59-10b29895b48c")
 	)
 	(wire
 		(pts
@@ -2993,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 52.07) (xy 58.42 52.07)
+			(xy 48.26 52.07) (xy 58.42 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3053,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 62.23) (xy 68.58 62.23)
+			(xy 41.91 62.23) (xy 80.01 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3113,16 +3067,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 78.74) (xy 106.68 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec76e17-4a55-4e70-afb2-1d2200430ca3")
-	)
-	(wire
-		(pts
 			(xy 189.23 90.17) (xy 204.47 90.17)
 		)
 		(stroke
@@ -3171,56 +3115,6 @@
 		)
 		(uuid "02db21f9-82a4-4e1a-946e-9a50ba5e22c7")
 	)
-	(label "GPIO8"
-		(at 46.99 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1698f0fd-0f6a-4d3a-8105-c1384ab6ffa6")
-	)
-	(label "SDA_MAG"
-		(at 76.2 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "315fcc02-7330-42ad-835e-705168877268")
-	)
-	(label "SDO1"
-		(at 101.6 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42ddaecc-fca7-4f32-a6fe-2af8cba021ca")
-	)
-	(label "SCL_MAG"
-		(at 69.85 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52575873-1e1f-4c67-a77a-a94c15f150aa")
-	)
-	(label "SCL_MAG"
-		(at 76.2 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57683489-3490-4932-b37a-c9d27728e9be")
-	)
 	(label "MISO"
 		(at 189.23 107.95 0)
 		(effects
@@ -3250,16 +3144,6 @@
 			(justify left bottom)
 		)
 		(uuid "7865c534-3209-47c3-b8cd-3d3f0664dd2f")
-	)
-	(label "SCLK"
-		(at 46.99 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "88ba8155-084f-4a50-a50f-1f411f9e5fb9")
 	)
 	(label "CSB_ACCEL"
 		(at 182.88 97.79 0)
@@ -3311,46 +3195,6 @@
 		)
 		(uuid "b61cb301-f2a1-4bed-b5e6-43a306cfead6")
 	)
-	(label "SDA_MAG"
-		(at 69.85 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d48cffe3-27c4-44c3-bcd6-085877415e25")
-	)
-	(label "Low_chip_selected"
-		(at 106.68 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea9e22d9-feae-44d5-ae3b-4f2c2ee704ae")
-	)
-	(label "Low_chip_selected"
-		(at 46.99 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f44bacdc-ba89-4c4b-8312-acaa93541868")
-	)
-	(label "SCLK"
-		(at 101.6 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5f5cfc3-8e98-453b-a45c-9e69ada65c88")
-	)
 	(label "INT4_GYRO"
 		(at 220.98 113.03 0)
 		(effects
@@ -3360,6 +3204,198 @@
 			(justify left bottom)
 		)
 		(uuid "f820e3e0-7000-4919-8494-8cd76944d215")
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 101.6 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31ba2e34-eda0-4e44-b5c6-8801e2d3d2b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.3628 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDA_MAG"
+		(shape input)
+		(at 69.85 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "555ec532-962d-4452-b182-a312dd11f808")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.1809 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO 8"
+		(shape input)
+		(at 48.26 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "974dccf7-37a0-41f9-b729-88a1c682b05f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.6224 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDO1"
+		(shape input)
+		(at 101.6 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad90a2fc-ed47-416e-b5dc-81ddc766b649")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.6047 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SCL_MAG"
+		(shape input)
+		(at 69.85 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c49082d4-806a-4ce5-8c2b-25ad43314c04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.1204 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDA_MAG"
+		(shape input)
+		(at 78.74 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf865cda-a9e2-40f2-95d2-25750b4f78a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.4091 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 46.99 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d75b7b51-6836-4cd8-aaca-191009da8c7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.2272 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCL_MAG"
+		(shape input)
+		(at 78.74 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9887be4-ba74-40ce-97f0-4da0f457ac59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.4696 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5968,6 +6004,85 @@
 			(project "drone-FC-v0.3"
 				(path "/3089f302-54a4-45f6-b8ae-ca1af9cfde51/c21f2c59-ba41-4889-af3a-ae43a2cc0371"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de46972f-0bd4-462e-a450-78d610ec5ad8")
+		(property "Reference" "#PWR051"
+			(at 107.95 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "847f416d-a2c6-4801-9f1d-7fbf3b9b0573")
+		)
+		(instances
+			(project "drone-FC-v0.3"
+				(path "/3089f302-54a4-45f6-b8ae-ca1af9cfde51/c21f2c59-ba41-4889-af3a-ae43a2cc0371"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
