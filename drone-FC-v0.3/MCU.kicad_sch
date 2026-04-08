@@ -3258,7 +3258,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 71.12) (xy 210.82 71.12)
+			(xy 201.93 71.12) (xy 210.82 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3390,6 +3390,30 @@
 			)
 		)
 	)
+	(global_label "GPIO15"
+		(shape input)
+		(at 210.82 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "226abafb-8d36-41bb-9da3-d8eaed781ad2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.9405 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GPIO 7"
 		(shape input)
 		(at 208.28 66.04 180)
@@ -3486,6 +3510,30 @@
 			)
 		)
 	)
+	(global_label "MOSI"
+		(shape input)
+		(at 241.3 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58df45c7-42b1-41a1-9473-cb8677c97869")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.8814 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SDA_MAG"
 		(shape input)
 		(at 200.66 76.2 180)
@@ -3499,6 +3547,54 @@
 		(uuid "5a83250f-1580-4801-9de2-593949d18d4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.3291 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 241.3 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c7a9c88-3407-4042-a412-323aed6b023a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.8814 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CSB_GYRO"
+		(shape input)
+		(at 201.93 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f86acea-f674-4eb0-a2b5-ab446e9879a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2686 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
